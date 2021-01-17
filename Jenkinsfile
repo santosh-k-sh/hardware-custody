@@ -8,7 +8,6 @@ node {
 
     sh "${MAVEN_HOME}/bin/mvn package"
   }
-  
   stage('Email Notification') {
     mail bcc: '', body: '''Hi Santosh,
 

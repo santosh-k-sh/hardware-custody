@@ -1,0 +1,10 @@
+POST http://localhost:8888/sendemail
+Content-Type: application/json
+
+{
+  "name": "Santosh Sharma",
+  "email": "santosh.sharma@emaratech.ae",
+  "feedback": "You app is awesome :)"
+}
+
+###
